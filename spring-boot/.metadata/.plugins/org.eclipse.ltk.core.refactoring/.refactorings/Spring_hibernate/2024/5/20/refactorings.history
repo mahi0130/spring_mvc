@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.rays.Dao&apos; to &apos;com.rays.dao&apos;&#x0D;&#x0A;- Original project: &apos;Spring_hibernate&apos;&#x0D;&#x0A;- Original element: &apos;Spring_hibernate/src/main/java/com.rays.Dao&apos;&#x0D;&#x0A;- Renamed element: &apos;Spring_hibernate/src/main/java/com.rays.dao&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.rays.Dao&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;com.rays.Dao" name="com.rays.dao" qualified="false" references="true" stamp="1716022626371" textual="false" version="1.0"/>
+</session>

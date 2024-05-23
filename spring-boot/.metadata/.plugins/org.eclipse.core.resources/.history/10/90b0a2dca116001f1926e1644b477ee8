@@ -1,0 +1,17 @@
+package com.rays.ctl;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping(value = "WelcomeCtl")
+public class WelcomeCtl {
+	
+	
+	public String display() {
+		return "welcome";
+	}
+	
+	
+
+}

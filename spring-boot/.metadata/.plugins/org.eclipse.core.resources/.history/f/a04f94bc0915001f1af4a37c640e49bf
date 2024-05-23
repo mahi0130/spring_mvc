@@ -1,0 +1,30 @@
+package com.rays.dto;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import org.hibernate.annotations.GenericGenerator;
+
+@Entity
+@Table(name = "USER")
+public class UserDTO {
+	
+	@Id
+	@GeneratedValue(generator = "nextpk")
+	@GenericGenerator(name = "nextpk", strategy = "native")
+	
+	protected long id = 0;
+	private String firstName;
+	private String lastName;
+	private String login;
+	private String password;
+	
+	
+	
+	
+	
+
+}
