@@ -1,5 +1,0 @@
-package com.rays.Dao;
-
-public class UserDAOHibImpl {
-
-}

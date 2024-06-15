@@ -1,9 +1,0 @@
-package com.rays.dto;
-
-import javax.persistence.Table;
-
-@Table(name = "USER")
-public class UserDTO {
-	
-
-}
